@@ -1,0 +1,68 @@
+table {
+    border: 1px solid;
+    border-collapse:collapse;
+    width:460px;
+    height:460px;
+}
+.cell-color-1 {
+    background-color: grey;
+}
+
+table tr td {
+    border: 1px solid;
+    width:46px;
+    height:46px;
+}
+td.queen-dark {
+    background-image: url('../img/chess.png');
+    background-repeat: no-repeat;
+    background-position: -48px 0px;
+}
+
+.queen-light{
+    background-image: url('../img/chess.png');
+   background-position: -48px -50px;
+ background-repeat: no-repeat;
+}
+.peshka { 
+ background-image: url('../img/chess.png');
+ background-position: -262px 0px;
+ background-repeat: no-repeat;
+}
+.peshka-w { 
+ background-image: url('../img/chess.png');
+ background-position: -262px -50px;
+ background-repeat: no-repeat;
+}
+.king-dark {background-image: url('../img/chess.png');
+   background-position: 4px 0px;
+ background-repeat: no-repeat;
+}
+.king-light {background-image: url('../img/chess.png');
+   background-position: 4px -50px;
+ background-repeat: no-repeat;
+}
+.castle {background-image: url('../img/chess.png');
+   background-position: -154px 0px;
+ background-repeat: no-repeat;
+}
+.castle-w {background-image: url('../img/chess.png');
+   background-position: -154px -50px;
+ background-repeat: no-repeat;
+}
+.chevalier {background-image: url('../img/chess.png');
+   background-position: -208px 0px;
+ background-repeat: no-repeat;
+}
+.chevalier-w {background-image: url('../img/chess.png');
+   background-position: -208px -50px;
+ background-repeat: no-repeat;
+}
+.knight {background-image: url('../img/chess.png');
+   background-position: -99px 0px;
+ background-repeat: no-repeat;
+}
+.knight-w {background-image: url('../img/chess.png');
+   background-position: -99px -50px;
+ background-repeat: no-repeat;
+}
