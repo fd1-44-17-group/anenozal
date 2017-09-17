@@ -1,0 +1,18 @@
+div {
+width:auto;
+heght:16px
+}
+
+.all-right { float:right;}
+.main {
+clear:both;
+float:left;
+width:40px;
+}
+
+.left {float:left;}
+.right {float:right;}
+.none {float: none;}
+
+.margin {margin-left: 20px;}
+.bot {margin-bottom: -32px;}

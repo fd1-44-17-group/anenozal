@@ -1,0 +1,61 @@
+table {
+    border: 1px solid;
+    border-collapse:collapse;
+    width:460px;
+    height:460px;
+}
+.cell-color-1 {
+    background-color: grey;
+    
+}
+.no-img {
+    background-image: none
+}
+
+table tr td {
+    border: 1px solid;
+    width:46px;
+    height:46px;
+    background-image: url('../img/chess.png');
+    background-repeat: no-repeat;
+}
+
+.queen-dark {
+   
+    background-position: -48px 0px;
+}
+
+.queen-light{
+   background-position: -48px -50px;
+}
+.peshka { 
+ background-position: -262px 0px;
+}
+.peshka-w { 
+ background-position: -262px -50px;
+}
+.king-dark {
+   background-position: 4px 0px;
+}
+.king-light {
+   background-position: 4px -50px;
+}
+.castle {
+   background-position: -154px 0px;
+}
+.castle-w {
+   background-position: -154px -50px;
+ 
+}
+.chevalier {
+   background-position: -208px 0px;
+}
+.chevalier-w {
+   background-position: -208px -50px;
+}
+.knight {
+   background-position: -99px 0px;
+}
+.knight-w {
+   background-position: -99px -50px;
+}
