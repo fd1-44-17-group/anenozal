@@ -1,0 +1,19 @@
+div {
+    width: 16px;
+    height: 16px;
+    
+}
+.col-left {
+    float:left;
+    
+}
+.col-right {
+    float:right;
+    
+}
+.main {width: 48px;}
+.m-left {margin-left: -32px;}
+.m-right {margin-right: -32px;}
+.m-bottom {margin-bottom: -32px;}
+.m-top {margin-top: -32px;}
+.c {clear:both;}
