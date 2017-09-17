@@ -1,0 +1,16 @@
+
+.cell {
+    width: 9vw;
+    height: 9vh;
+    background-color: white; 
+    clear:left;
+}
+.black {
+    background-color: grey;
+}
+.l {
+    float:left;
+}
+.r {
+    float: right;
+}
