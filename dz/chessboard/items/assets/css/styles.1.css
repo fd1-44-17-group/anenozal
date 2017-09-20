@@ -1,0 +1,121 @@
+.chess-table {
+    width: 100vmin;
+    height: 100vmin;
+}
+div {
+    width: 10%;
+    height: 10%;
+    float:left;
+    
+}
+
+
+:empty {
+    background-image: url('../img.chess.png');
+}
+:empty:nth-child(12):before {
+    content: "background-image: url('../img.chess.png');
+background-position: -154px 0px;
+ + background-repeat: no-repeat;
+ background-color: black;"
+ }
+ 
+:empty:nth-child(12) {
+    background-color: black;
+}
+:empty:nth-child(14) {
+    background-color: black;
+}
+:empty:nth-child(16) {
+    background-color: black;
+}
+:empty:nth-child(18) {
+    background-color: black;
+}
+:empty:nth-child(12) {
+    background-color: black;
+}
+:empty:nth-child(23) {
+    background-color: black;
+}
+:empty:nth-child(25) {
+    background-color: black;
+}
+:empty:nth-child(27) {
+    background-color: black;
+}
+:empty:nth-child(29) {
+    background-color: black;
+}
+:empty:nth-child(32) {
+    background-color: black;
+}
+:empty:nth-child(34) {
+    background-color: black;
+}
+:empty:nth-child(36) {
+    background-color: black;
+}
+:empty:nth-child(38) {
+    background-color: black;
+}
+:empty:nth-child(43) {
+    background-color: black;
+}
+:empty:nth-child(45) {
+    background-color: black;
+}
+:empty:nth-child(47) {
+    background-color: black;
+}
+:empty:nth-child(49) {
+    background-color: black;
+}
+:empty:nth-child(52) {
+    background-color: black;
+}
+:empty:nth-child(54) {
+    background-color: black;
+}
+:empty:nth-child(56) {
+    background-color: black;
+}
+:empty:nth-child(58) {
+    background-color: black;
+}
+:empty:nth-child(63) {
+    background-color: black;
+}
+:empty:nth-child(65) {
+    background-color: black;
+}
+:empty:nth-child(67) {
+    background-color: black;
+}
+:empty:nth-child(69) {
+    background-color: black;
+}
+:empty:nth-child(72) {
+    background-color: black;
+}
+:empty:nth-child(74) {
+    background-color: black;
+}
+:empty:nth-child(76) {
+    background-color: black;
+}
+:empty:nth-child(78) {
+    background-color: black;
+}
+:empty:nth-child(83) {
+    background-color: black;
+}
+:empty:nth-child(85) {
+    background-color: black;
+}
+:empty:nth-child(87) {
+    background-color: black;
+}
+:empty:nth-child(89) {
+    background-color: black;
+}
