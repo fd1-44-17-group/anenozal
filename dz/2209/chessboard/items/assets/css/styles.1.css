@@ -1,0 +1,252 @@
+.chess-table {
+    width: 100vmin;
+    height: 100vmin;
+}
+div {
+    width: 10%;
+    height: 10%;
+    float:left;
+    
+}
+
+
+}
+
+.chess-table>div:nth-of-type(-n+10), .chess-table>div:nth-last-of-type(-n+10),
+.chess-table>div:nth-of-type(10n), .chess-table>div:nth-last-of-type(10n){
+   background-color: white;
+}
+
+.chess-table>div:nth-of-type(-n+19):not(:nth-of-type(-n+10)):not(:nth-of-type(odd)),
+.chess-table>div:nth-of-type(-n+39):not(:nth-of-type(-n+30)):not(:nth-of-type(odd)),
+.chess-table>div:nth-of-type(-n+59):not(:nth-of-type(-n+50)):not(:nth-of-type(odd)),
+.chess-table>div:nth-of-type(-n+79):not(:nth-of-type(-n+70)):not(:nth-of-type(odd)),
+.chess-table>div:nth-of-type(-n+30):not(:nth-of-type(-n+21)):not(:nth-of-type(even)),
+.chess-table>div:nth-of-type(-n+50):not(:nth-of-type(-n+41)):not(:nth-of-type(even)),
+.chess-table>div:nth-of-type(-n+70):not(:nth-of-type(-n+61)):not(:nth-of-type(even)),
+.chess-table>div:nth-of-type(-n+90):not(:nth-of-type(-n+81)):not(:nth-of-type(even))
+{
+   background-color: grey;
+}
+
+.chess-table>div:nth-child(even):not(:last-child)>div:nth-of-type(even):not(:last-child),
+.chess-table>div:nth-child(odd):not(:first-child)>div:nth-of-type(odd):not(:first-child) {
+   background-color: black;
+}
+
+.chess-table>div:nth-of-type(-n+30):not(:nth-of-type(-n+20)):not(:nth-of-type(30)):not(:nth-of-type(21)):before{
+    content: '';
+    display: block;
+    background-image: url(../img/chess.png);
+    height: 10vmin;
+    background-size: 600%;
+    background-repeat: no-repeat;
+    background-position: -52vmin 0vmin;
+    /*пешка черная*/
+}
+.chess-table>div:nth-of-type(-n+79):not(:nth-of-type(-n+71)):before{
+    content: '';
+    display: block;
+    background-image: url(../img/chess.png);
+    height: 10vmin;
+    background-size: 600%;
+    background-repeat: no-repeat;
+    background-position: -52vmin -10vmin;
+    /*пешка белая*/
+}
+.chess-table>div:nth-of-type(12), .chess-table>div:nth-of-type(19):before{
+    content: '';
+    display: block;
+    background-image: url(../img/chess.png);
+    height: 10vmin;
+    background-size: 600%;
+    background-repeat: no-repeat;
+    background-position: -20vmin 0vmin;
+    /*слон черный*/
+}
+.chess-table>div:nth-of-type(82), .chess-table>div:nth-of-type(89):before{
+    content: '';
+    display: block;
+    background-image: url(../img/chess.png);
+    height: 10vmin;
+    background-size: 600%;
+    background-repeat: no-repeat;
+    background-position: -20vmin -10vmin;
+    /*слон белый*/
+}
+.chess-table>div:nth-of-type(13), .chess-table>div:nth-of-type(18):before{
+    content: '';
+    display: block;
+    background-image: url(../img/chess.png);
+    height: 10vmin;
+    background-size: 600%;
+    background-repeat: no-repeat;
+    background-position: -41vmin 0vmin;
+    /*конь черный*/
+}
+.chess-table>div:nth-of-type(83), .chess-table>div:nth-of-type(88):before{
+    content: '';
+    display: block;
+    background-image: url(../img/chess.png);
+    height: 10vmin;
+    background-size: 600%;
+    background-repeat: no-repeat;
+    background-position: -41vmin -10vmin;
+    /*конь белый*/
+}
+.chess-table>div:nth-of-type(14), .chess-table>div:nth-of-type(17):before{
+    content: '';
+    display: block;
+    background-image: url(../img/chess.png);
+    height: 10vmin;
+    background-size: 600%;
+    background-repeat: no-repeat;
+    background-position: -31vmin 0vmin;
+    /*ладья черная*/
+}
+.chess-table>div:nth-of-type(84), .chess-table>div:nth-of-type(87):before{
+    content: '';
+    display: block;
+    background-image: url(../img/chess.png);
+    height: 10vmin;
+    background-size: 600%;
+    background-repeat: no-repeat;
+    background-position: -31vmin -10vmin;
+    /*ладья белая*/
+}
+.chess-table>div:nth-of-type(16):before{
+    content: '';
+    display: block;
+    background-image: url(../img/chess.png);
+    height: 10vmin;
+    background-size: 600%;
+    background-repeat: no-repeat;
+    background-position: 1vmin 0vmin;
+    /*королева черная*/
+}
+.chess-table>div:nth-of-type(86):before{
+    content: '';
+    display: block;
+    background-image: url(../img/chess.png);
+    height: 10vmin;
+    background-size: 600%;
+    background-repeat: no-repeat;
+    background-position: 1vmin -10vmin;
+    /*королева белая*/
+}
+.chess-table>div:nth-of-type(15):before{
+    content: '';
+    display: block;
+    background-image: url(../img/chess.png);
+    height: 10vmin;
+    background-size: 600%;
+    background-repeat: no-repeat;
+    background-position: -10vmin 0vmin;
+    /*король черный*/
+}
+.chess-table>div:nth-of-type(85):before{
+    content: '';
+    display: block;
+    background-image: url(../img/chess.png);
+    height: 10vmin;
+    background-size: 600%;
+    background-repeat: no-repeat;
+    background-position: -10vmin -10vmin;
+    /*король белый*/
+}
+.chess-table>div:nth-of-type(2):after{
+    content: 'a';
+} 
+.chess-table>div:nth-of-type(92):after{
+    content: 'a';
+}
+.chess-table>div:nth-of-type(3):after{
+    content: 'b';
+} 
+.chess-table>div:nth-of-type(93):after{
+    content: 'b';
+}
+.chess-table>div:nth-of-type(4):after{
+    content: 'c';
+} 
+.chess-table>div:nth-of-type(94):after{
+    content: 'c';
+}
+.chess-table>div:nth-of-type(5):after{
+    content: 'd';
+} 
+.chess-table>div:nth-of-type(95):after{
+    content: 'd';
+}
+.chess-table>div:nth-of-type(6):after{
+    content: 'e';
+}
+.chess-table>div:nth-of-type(96):after{
+    content: 'e';
+}
+.chess-table>div:nth-of-type(7):after{
+    content: 'f';
+}
+.chess-table:nth-of-type(97):after{
+    content: 'f';
+}
+.chess-table>div:nth-of-type(8):after{
+    content: 'g';
+} 
+.chess-table>div:nth-of-type(98):after{
+    content: 'g';
+}
+.chess-table>div:nth-of-type(9):after{
+    content: 'h';
+}
+.chess-table>div:nth-of-type(99):after{
+    content: 'h';
+}
+.chess-table>div:nth-of-type(11):after{
+    content: '1';
+} 
+.chess-table>div:nth-of-type(20):after{
+    content: '1';
+} 
+.chess-table>div:nth-of-type(21):after{
+    content: '2';
+} 
+.chess-table>div:nth-of-type(30):after{
+    content: '2';
+} 
+.chess-table>div:nth-of-type(31):after{
+    content: '3';
+} 
+.chess-table>div:nth-of-type(40):after{
+    content: '3';
+} 
+.chess-table>div:nth-of-type(41):after{
+    content: '4';
+} 
+.chess-table>div:nth-of-type(50):after{
+    content: '4';
+}
+.chess-table>div:nth-of-type(51):after{
+    content: '5';
+}
+.chess-table>div:nth-of-type(60):after{
+    content: '5';
+}
+.chess-table>div:nth-of-type(61):after{
+    content: '6';
+}
+.chess-table>div:nth-of-type(70):after{
+    content: '6';
+}
+.chess-table>div:nth-of-type(71):after{
+    content: '7';
+}
+.chess-table>div:nth-of-type(80):after{
+    content: '7';
+}
+.chess-table>div:nth-of-type(81):after{
+    content: '8';
+}
+.chess-table>div:nth-of-type(90):after{
+    content: '8';
+}
