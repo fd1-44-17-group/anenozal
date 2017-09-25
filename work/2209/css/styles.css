@@ -1,5 +1,8 @@
-body {width: 100vmin;
-      height:100vmin;
+body {width: 100%;
+      height:100%;
+}
+p {float: left;
+    display: block;
 }
 a {
     white-space: pre-line;
@@ -25,19 +28,28 @@ a:nth-of-type(11) {
  }
 
  @media screen and (min-width:800px){
-     a:nth-of-type(-n+5){
+     p {
          float: left;
          width: 33%;
      }
-     a:nth-of-type(-n+10):not(-n+5){
-         float: left;
-         width: 33%;
-     }
-     a:nth-of-type(-n+15):not(-n+10){
-         float: left;
-         width: 33%;
+     p:before {
+         content:">800px";
+         width: 5%;
+         height: 5%;
      }
  }
-
-
+@media screen and (max-width:400px){
+    p:before {
+         content:"<400px";
+         width: 5%;
+         height: 5%;
+     }
+     
+@media screen and (min-width:400px) and (max-width:800px) {
+    p:before {
+         content:">400px & <800px";
+         width: 15%;
+         height: 5%;
+     }
+}
 
