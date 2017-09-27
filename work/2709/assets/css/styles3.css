@@ -1,0 +1,30 @@
+body {
+    width:80%;
+    height:60%;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+.olive {
+    color: olive;
+}
+
+.blue {
+    color:blue;
+}
+.box {
+    background-color: whitesmoke;
+    padding: 2vmin;
+    border-radius: 7px; 
+}
+
+:nth-of-type(5) {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.bold {
+    font-weight: bold;
+}

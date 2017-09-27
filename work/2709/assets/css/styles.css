@@ -1,0 +1,18 @@
+body {
+    width:80%;
+    height:60%;
+}
+.greybox { 
+    background-color: gainsboro;
+    padding: 2vmin;
+    border-radius: 7px; 
+}
+span {
+    background-color: gainsboro;
+    padding: 2px 4px 2px 4px;
+    border-radius: 2px; 
+}
+p:nth-of-type(6) {
+    overflow-x: scroll;
+    white-space: nowrap;
+}

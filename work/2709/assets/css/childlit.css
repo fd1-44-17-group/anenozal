@@ -1,0 +1,8 @@
+body {
+    text-align: right;
+    white-space: pre-line;
+}
+.red {
+    color: maroon;
+    text-transform: uppercase;
+}
