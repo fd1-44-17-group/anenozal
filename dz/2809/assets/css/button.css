@@ -1,0 +1,44 @@
+ div {
+     position:absolute;
+     width: 80vmin;
+     height: 28vmin;
+     background-color: whitesmoke;
+     border-radius: 6vmin;
+     
+ }
+ div:before {
+     content: "Отправить";
+     display: block;
+     border-left-style: dotted;
+     border-color: darkgrey;
+     border-width: 2vmin;
+     padding-left: 4vmin;
+     position: relative;
+     color: orange;
+     font-size: 10vmin;
+     top: 8vmin;
+     left: 14vmin;
+    
+ }
+
+ 
+div:hover {
+    background-color: darkgrey;
+    border-bottom-right-radius: 0vmin;
+    border-top-right-radius: 0vmin;
+}
+
+ div:hover:after {
+     content: '';
+     display: block;
+     position: relative;
+     width: 20vmin;
+     height: 20vmin;
+     background-color: darkgrey;
+     transform: rotate(45deg);
+     margin-left: 70vmin;
+     margin-top: -7vmin;
+ }
+ div:hover:before{
+     border-color: white;
+ }
