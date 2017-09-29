@@ -1,0 +1,17 @@
+div {
+    color: rgb(100,149,237);
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    width: 20%;
+    height: 10%;
+    padding: 1% 2% 1% 2%;
+    border-color: grey;
+    border-width: 1px;
+    margin: 0 1% 0 1%;
+    
+}
+div:hover {
+    background-color: rgb(100,149,237);
+    color: white;
+}
