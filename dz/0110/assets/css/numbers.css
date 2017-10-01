@@ -1,0 +1,39 @@
+.main {
+    display: block;
+    width: 80vmin;
+    height:10vmin;
+    border-bottom:1vmin solid grey;
+}
+div {
+    display: block;
+    position: relative;
+    float: left;
+    width: 8vmin;
+    height: 8vmin;
+    font-size: 5vmin;
+    text-align: center;
+    color:lightblue;
+    text-decoration: underline;
+}
+div:hover {
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1vmin solid orange;
+}
+div:hover:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width:8vmin;
+    height: 1vmin;
+    background-color: orange;
+    top: 10vmin;
+}
+.main:hover {
+    background-color: white;
+    border-bottom-color: grey;
+}
+.main:hover:after {
+    display: none;
+}

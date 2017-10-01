@@ -1,0 +1,46 @@
+body {
+    background-color: lightgrey;
+    width: 80%;
+    height: 100%;
+    font-family: monospace;
+}
+div {
+    display: block;
+}
+.heading {
+    background-color: grey;
+    color: white;
+    text-transform: uppercase;
+    width:80vw;
+    height:10vh;
+    font-size: 6vmin;
+    
+}
+
+.block {
+   width:30vw;
+   height:36vh; 
+    float: left;
+    margin: 5vmin;
+}
+.block>div:not(.head2){
+   width:35vw;
+   height:6vh;
+   border-top:0.01vmin solid grey;
+   color: blueviolet;
+}
+.head2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+.block>div:not(.head2):hover {
+    background-color: blueviolet;
+    border-radius: 1vmin;
+    color: white;
+    font-weight: bold;
+}
+.col1:hover:before {
+    content: '';
+    color:blueviolet;
+}
