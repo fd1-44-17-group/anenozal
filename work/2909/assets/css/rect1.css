@@ -1,0 +1,60 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: cadetblue;
+    
+}
+div {
+    display: block;
+    position: absolute;
+}
+div:first-of-type {
+    
+    width: 100vw;
+    height: 70vh;
+    border:1vw solid black;
+    
+}
+div:nth-of-type(2) {
+    
+width:15vw;
+height:10vh;
+border:1vw solid black;
+background-color: red;
+left: 10vw;
+top: 5vh;
+
+
+}
+
+ div:nth-of-type(3) {
+    
+width:15vw;
+height:45vh;
+border:1vw solid black;
+background-color: blue;
+left: 10vw;
+top: 20vh;
+
+
+}
+div:nth-of-type(4) {
+    
+width:55vw;
+height:35vh;
+border:1vw solid black;
+background-color: green;
+top: 5vh;
+left: 40vw;
+
+}
+div:nth-of-type(5) {
+    
+width:55vw;
+height:15vh;
+border:1vw solid black;
+background-color: yellow;
+top: 45vh;
+left: 40vw;
+
+}

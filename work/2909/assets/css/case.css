@@ -1,0 +1,107 @@
+div {
+    display:block;
+    position:absolute;
+}
+.folder {
+    width:50vmin;
+    height:30vmin;
+    background-color:goldenrod;
+    border-radius:5vmin;
+    top:15vmin;
+    
+}
+.list {
+    width:40vmin;
+    height:30vmin;
+    background-color:lightgrey;
+    border:0.3vmin solid white;
+    border-radius:2vmin;
+    z-index:3;
+    left:5vmin;
+}
+div:first-of-type.folder:before{
+    content: '';
+    display: block;
+    width: 15vmin;
+    height:10vmin;
+    background-color: goldenrod;
+    border-radius: 3vmin;
+    transform: translateY(-2vmin);
+}
+div:nth-of-type(2){
+    top:25vmin;
+}
+div:nth-of-type(3){
+    top:35vmin;
+    background-color:lightgrey;
+}
+div:nth-of-type(4){
+    top:45vmin;
+}
+div:nth-of-type(5){
+    top:55vmin;
+    z-index:4;
+}
+
+div>div:first-child {
+    width:3vmin;
+    height:3vmin;
+    background-color:red;
+    border-radius:50%;
+    top:0.5vmin;
+    left:1vmin;
+    
+}
+div>div:nth-child(2){
+    
+    width:3vmin;
+    height:3vmin;
+    background-color:yellow;
+    border-radius:50%;
+   
+    left:5vmin;
+    transform:translateY(-24.5vmin);
+    
+}
+div>div:nth-child(3) {
+    
+    width:3vmin;
+    height:3vmin;
+    
+    border-radius:50%;
+    transform:translateY(-34.5vmin) 
+    translateX(9vmin);
+    background-color:green;
+    
+    
+}
+div>div:nth-child(4) {
+width:2vmin;
+    height:0.5vmin;
+    
+    
+    transform:translateY(-44.5vmin) 
+    translateX(36vmin);
+    background-color:grey;
+}
+div>div:nth-child(5) {
+width:2vmin;
+    height:0.5vmin;
+    
+    
+    transform:translateY(-53.8vmin) 
+    translateX(36vmin);
+    background-color:grey;
+}
+div>div:nth-child(6) {
+width:2vmin;
+    height:0.5vmin;
+    
+    
+    transform:translateY(2vmin) 
+    translateX(36vmin);
+    background-color:grey;
+}
+.list:hover{
+    left:20vmin;
+}

@@ -1,0 +1,65 @@
+body {
+    width: 100%;
+    height:100%;
+    background-color: lightgrey;
+}
+.small {
+    display: block;
+    position: fixed;
+    width: 20vmin;
+    height: 20vmin;
+    
+    background-color: darkgreen;
+}
+div:first-of-type {
+    transform: rotate(45deg);
+    left:10vw;
+    top:60vh;
+}
+div:first-of-type:after {
+    content: '';
+    display: block;
+    width:20vmin;
+    height: 40vmin;
+    background-color: lightgrey;
+    transform: rotate(45deg) translateY(-4vw)
+    translateX(2vh);
+    
+
+}
+div:nth-of-type(2) {
+    display: block;
+    position: fixed;
+    transform: rotate(45deg);
+    left:70vw;
+    top:60vh;
+}
+div:nth-of-type(2):after {
+    content: '';
+    display: block;
+    width:20vmin;
+    height: 40vmin;
+    background-color: lightgrey;
+    transform: rotate(45deg) translateY(-4vw)
+    translateX(2vh);
+}
+div:last-of-type {
+    display: block;
+    position: fixed;
+    background-color: darkgreen;
+    width:60vmin;
+    height: 60vmin;
+    transform: rotate(45deg);
+    left:25vw;
+    top:-5vh;
+   
+}
+div:last-of-type:before {
+    content: '';
+    display: block;
+    width:40vmin;
+    height: 120vmin;
+    background-color: lightgrey;
+    transform: rotate(45deg) translateY(-13vw)
+    translateX(-23vh);
+}
