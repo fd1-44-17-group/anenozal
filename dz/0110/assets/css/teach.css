@@ -1,0 +1,49 @@
+div {
+    display: block;
+    position:absolute;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+img {
+    width:40vmin;
+    height: 50vmin;
+}
+:nth-of-type(2) {
+    width: 42vmin;
+    height: 8vmin;
+    font-size: 6vmin;
+    background-color: steelblue;
+    left: 45vmin;
+    top: 10vmin;
+}
+:nth-of-type(2):after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 52vmin;
+    height: 2vmin;
+    background-color: steelblue;
+    left: 42vmin;
+    top: 3vmin;
+}
+
+:nth-of-type(3) {
+    width: 60vmin;
+    height: 8vmin;
+    font-size: 3vmin;
+    background-color: red;
+    left: 65vmin;
+    top: 30vmin;
+}
+:nth-of-type(3):after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 16vmin;
+    height: 2vmin;
+    background-color: red;
+    left: 58vmin;
+    top: 3vmin;
+}
