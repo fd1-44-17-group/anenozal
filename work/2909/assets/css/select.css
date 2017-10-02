@@ -1,0 +1,21 @@
+body {
+  width:100%;
+  background-color: tan;
+}
+div {
+    float: left;
+}
+div:first-of-type {
+    position: fixed;
+    top:45%;
+    width:20%;
+    height:10%;
+    font-size: 3vmin;
+    background-color: white;
+    border:1px solid black;
+}
+div:last-of-type {
+    float: right;
+    width: 70%;
+    text-align: justify;
+}
