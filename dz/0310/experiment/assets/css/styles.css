@@ -1,0 +1,13 @@
+div>div {
+    border:1px solid black;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+div{
+    width: 84px;
+    height: 84px;
+}
+#low{
+    background-color: green;
+}
