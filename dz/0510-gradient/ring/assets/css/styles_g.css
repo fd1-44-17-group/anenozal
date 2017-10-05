@@ -1,0 +1,8 @@
+div {
+    
+    width: 160px;
+    height: 160px;
+    background:radial-gradient(circle closest-side, black 50px, 
+                        orange 51px, orange 70px, lightblue 31px);
+}
+
