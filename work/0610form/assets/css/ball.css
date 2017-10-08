@@ -1,0 +1,78 @@
+div {
+    display: block;
+    width: 20vmin;
+    height: 20vmin;
+    border-radius: 50%;
+    background-color: maroon;
+    position: absolute;
+    top: 60vmin;
+    left: 3vmin;
+
+    animation:ball 8s ease-in-out infinite;
+}
+@keyframes ball {
+    0%{ top: 60vmin;
+    left: 5vmin;
+        box-shadow: 0 8vmin 4vmin -2vmin black;
+        transform: scaleY(1);
+    }
+    15% {top: 20vmin;
+    left: 15vmin;
+        box-shadow: 0 50vmin 20vmin -10vmin black;
+        transform: scaleY(1);
+    }
+    27% {
+        transform: scaleY(0.9);
+    }
+    30% {top: 60vmin;
+    left: 25vmin;
+         box-shadow: 0 8vmin 4vmin -2vmin black;
+         transform: scaleY(0.8);
+    }
+    33%{
+        transform: scaleY(1);
+    }
+    42% {
+        transform: scaleY(0.9);
+    }
+    
+    45% {top: 20vmin;
+    left: 35vmin;
+        box-shadow: 0 50vmin 20vmin -10vmin black;
+        transform: scaleY(1);
+    }
+    57% {
+        transform: scaleY(0.9);
+    }
+    60% {top: 60vmin;
+    left: 45vmin;
+        box-shadow: 0 8vmin 4vmin -2vmin black;
+         transform: scaleY(0.8);
+    }
+    63%{
+        transform: scaleY(1);
+    }
+    72% {
+        transform: scaleY(0.9);
+    }
+    
+    75% {top: 20vmin;
+    left: 25vmin;
+        box-shadow: 0 50vmin 20vmin -10vmin black;
+        transform: scaleY(1);
+    }
+    87% {
+        transform: scaleY(0.9);
+    }
+    90% {top: 60vmin;
+    left: 15vmin;
+        box-shadow: 0 8vmin 4vmin -2vmin black;
+        transform: scaleY(0.8);
+    }
+    100%{top: 60vmin;
+    left: 5vmin;
+        box-shadow: 0 8vmin 4vmin -2vmin black;
+        transform: scaleY(1);
+    }
+    
+}

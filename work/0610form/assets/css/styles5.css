@@ -1,0 +1,51 @@
+.look {
+    position: relative;
+    padding-top: 90vh;
+    background: no-repeat 50% 50%; 
+    background-size: 40% 90%;
+    width: 60vmin;
+    left: 10vmin;
+    
+}
+.look label {
+    display: inline-block; 
+    position: relative;
+    width: 15vmin; 
+    height: 20vmin; 
+    background: no-repeat 50% 50%; 
+    background-size: 70% 97%;
+    top: 25vmin;
+    left: 5vmin;
+    
+}
+#pic1:checked~.look, label[for="pic1"]{
+    background: url(../img/pic1.jpg) no-repeat 50% 100%/100% 100%;
+    
+}
+#pic2:checked~.look, label[for="pic2"]{
+    background: url(../img/pic2.jpg) no-repeat 50% 100%/100% 100%;
+}
+#pic3:checked~.look, label[for="pic3"]{
+    background: url(../img/pic3.jpg) no-repeat 50% 100%/100% 100%;
+}
+.look label:before {
+     position: absolute; 
+     border-width: 6vmin 5vmin; 
+     border-style: solid;
+}
+#pic1:checked~.look [for="pic3"]:before,
+#pic2:checked~.look [for="pic1"]:before,
+#pic3:checked~.look [for="pic2"]:before {
+    content: '';
+    left: -45vmin; 
+    border-color: transparent grey transparent transparent; 
+    box-shadow: 2px 0 0 -1px #000;
+}
+#pic1:checked~.look [for="pic2"]:before,
+#pic2:checked~.look [for="pic3"]:before,
+#pic3:checked~.look [for="pic1"]:before {
+    content: '';
+    left:35vmin; 
+    border-color: transparent transparent transparent grey; 
+    box-shadow: 2px 0 0 -1px #000;
+}
