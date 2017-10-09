@@ -5,11 +5,11 @@
     background-size: 40% 90%;
     width: 60vmin;
     left: 10vmin;
-    
+     text-align: center;
 }
 .look label {
     display: inline-block; 
-    position: relative;
+   border:1vmin solid black;
     width: 15vmin; 
     height: 20vmin; 
     background: no-repeat 50% 50%; 
@@ -37,7 +37,7 @@
 #pic2:checked~.look [for="pic1"]:before,
 #pic3:checked~.look [for="pic2"]:before {
     content: '';
-    left: -45vmin; 
+    left:-10vmin;
     border-color: transparent grey transparent transparent; 
     box-shadow: 2px 0 0 -1px #000;
 }
@@ -45,7 +45,7 @@
 #pic2:checked~.look [for="pic3"]:before,
 #pic3:checked~.look [for="pic1"]:before {
     content: '';
-    left:35vmin; 
+    right:-10vmin; 
     border-color: transparent transparent transparent grey; 
     box-shadow: 2px 0 0 -1px #000;
 }
