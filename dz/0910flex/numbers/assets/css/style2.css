@@ -1,0 +1,72 @@
+
+.main {
+    display:flex;
+   height: 120px;
+   width: 70px;
+   align-items:flex-start;
+   flex-direction:row;
+   flex-wrap:wrap;
+}
+
+
+.main>div{
+    background-color: lightgreen;
+    border:1px solid red;
+    width:20px;
+}
+.main>div:first-of-type, 
+.main>div:nth-of-type(2),
+.main>div:nth-of-type(3),
+.main>div:nth-of-type(4) {
+    order:1;
+    /*1 ряд и 3 из 2-го*/
+}
+
+.main>div:nth-of-type(6) {
+    order:2;
+}
+
+.main>div:nth-of-type(5) {
+    order:3;
+}
+/*3 row*/
+.main>div:nth-of-type(8) {
+    order:4;
+}
+
+.main>div:nth-of-type(7) {
+    order:5;
+}
+.main>div:nth-of-type(9) {
+    order:6;
+}
+/*4 row*/
+.main>div:nth-of-type(11) {
+    order:7;
+}
+.main>div:nth-of-type(12) {
+    order:8;
+}
+.main>div:nth-of-type(10) {
+    order:9;
+}
+/*5 row*/
+.main>div:nth-of-type(15) {
+    order:10;
+}
+ .main>div:nth-of-type(13) {
+    order:11;
+}  
+.main>div:nth-of-type(14) {
+    order:12;
+}
+/*6 row*/
+.main>div:nth-of-type(18) {
+    order:13;
+}
+.main>div:nth-of-type(17) {
+    order:14;
+}
+.main>div:nth-of-type(16) {
+    order:15;
+}

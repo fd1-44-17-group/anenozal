@@ -1,0 +1,67 @@
+.display{
+    width: 100vw;
+    height: 80vh;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.display__nav {
+    position: relative;
+    font-size:10vmin;
+    font-weight: bold;
+    color:black;
+    bottom:50%;
+}
+.nav_left{
+               right:85vmin;
+                }
+
+               .nav_right{
+               left: 20vmin;
+               }
+               
+.display__navigation{
+    width: 90vw;
+    height: 10vh;
+    position: absolute;
+    top:80vh;
+    
+    
+}
+
+
+.display__img{
+    width: 90vmin;
+    height: 80vmin;
+    position: relative;
+    left: 10vw;
+}
+
+.navigation__pin{
+    display: block;
+    width: 5vmin;
+    height: 5vh;
+    border:1px solid black;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    left: 40vw;
+}
+
+
+
+.display:target {
+    display: block;
+}
+.display:not(:target){
+    display: none;
+}
+.display:first-of-type {
+    display: block;
+}
+.pin_active{
+    background-color: darkgreen;
+    
+}
+
